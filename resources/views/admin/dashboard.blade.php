@@ -1,17 +1,16 @@
-@extends('layouts.app')
-
+@extends('admin.app')
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Admin Dashboard</div>
-
-                <div class="panel-body">
-                    You are logged in as Admin!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+  <section class="content-header">
+    <h1>
+      Page Header
+      <small>Optional description</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+      <li class="active">Here</li>
+    </ol>
+  </section>
+  <section class="content container-fluid">
+      | Your Page Content Here |sddsds
+  </section>
 @endsection
